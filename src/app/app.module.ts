@@ -14,6 +14,7 @@ import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.c
 
 @NgModule({
   declarations: [
+    RecipeItemComponent,
     AppComponent,
     HeaderComponent,
     RecipesComponent,
