@@ -8,8 +8,5 @@ import {ShoppingListService} from "./shoping-list/shopping-list.servics";
     providers:[ShoppingListService]
 })
 export class AppComponent {
-    loadedFeature = 'recipe';
-    onNavigate(feature){
-        this.loadedFeature = feature;
-    }
+
 }

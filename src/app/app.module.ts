@@ -13,6 +13,8 @@ import { ShopingListComponent } from './shoping-list/shoping-list.component';
 import { ShopingEditComponent } from './shoping-list/shoping-edit/shoping-edit.component';
 import {DropdownDirective} from "./shared/dropdown.directive";
 import {AppRoutingModule} from "./app-routing.module";
+import { RecipeStratComponent } from './recipes/recipe-strat/recipe-strat.component';
+import { RecipeEditComponent } from './recipes/recipe-edit/recipe-edit.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import {AppRoutingModule} from "./app-routing.module";
     RecipeItemComponent,
     ShopingListComponent,
     ShopingEditComponent,
-    DropdownDirective
+    DropdownDirective,
+    RecipeStratComponent,
+    RecipeEditComponent
   ],
   imports: [
     BrowserModule,
